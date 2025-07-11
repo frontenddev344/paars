@@ -134,8 +134,30 @@
         margin-bottom: 30px;
     }
 
+    .footer-menu-wrapper.footer-menu-left {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    ul.footer-menu {
+        justify-content: center;
+        gap: 20px;
+    }
+
     .right-col {
         margin-top: 40px;
+    }
+
+    .col-lg-4.col-md-4.one {
+        order: 2;
+    }
+
+    .col-lg-4.col-md-4.two {
+        order: 1;
+    }
+
+    .col-lg-4.col-md-4.three {
+        order: 3;
     }
 
     .menu-list ul {
