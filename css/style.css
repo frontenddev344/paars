@@ -66,6 +66,10 @@ header {
     position: relative;
 }
 
+.main-content {
+    overflow: hidden;
+}
+
 .menu-list ul li a.active {
     color: var(--quinary-color);
 }
