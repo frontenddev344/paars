@@ -105,6 +105,10 @@
         margin-bottom: 40px;
     }
 
+    .center-footer-inner h3 {
+        line-height: 30px;
+    }
+
     .footer-menu-wrapper ul li a {
 
         font-size: 16px;
