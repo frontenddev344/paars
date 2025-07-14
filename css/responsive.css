@@ -218,6 +218,9 @@
         width: 100%;
         height: auto;
     }
+    .what-we-offer-item-wrapper {
+        padding-top: 20px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -377,6 +380,10 @@
     .what-we-offer-item-content-inner-icon img {
         width: 60px;
         height: 60px;
+    }
+
+    .what-we-offer-item-second .what-we-offer-item-content {
+        text-align: left;
     }
 
     .what-we-offer-item-content-inner-icon {
