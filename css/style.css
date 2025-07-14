@@ -43,6 +43,19 @@ a {
 /* header start here */
 header {
     padding: 20px 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--secondary-color);
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+header.sticky {
+    position: fixed;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--secondary-color);
 }
 
 .header-content {
@@ -1034,3 +1047,298 @@ span.footer-tag a {
     width: 60px;
     height: 60px;
 }
+
+/*  */
+/* about us page css start */
+/* about page styling start */
+.text-main h1 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Manrope';
+    line-height: 70px;
+    color: #111;
+    margin: 12px 0 20px;
+}
+
+.disc-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0;
+    color: #444444;
+}
+
+.who-we-are {
+    background: #F8F7F4;
+    padding: 80px 0px 100px;
+}
+
+/* about page styling end */
+/* what we do styling start */
+.who-we-do {
+    padding: 80px 0;
+}
+
+.pras_has {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    color: #111;
+    margin: 12px 0 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.text-section {
+    max-width: 690px;
+    float: right;
+}
+
+.text-section p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0;
+    color: #888;
+}
+
+.text-main {
+    max-width: 698px;
+    float: left;
+}
+
+
+
+/* what we do styling end */
+/* matter styling start */
+.section_title {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 120%;
+    letter-spacing: -0.5px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.reform-title {
+    border: 1px solid rgba(0, 60, 67, 0.1);
+    border-radius: 44px;
+    color: #003C43;
+    padding: 8px 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: normal;
+    vertical-align: middle;
+    display: inline-block;
+    text-transform: uppercase;
+    animation: fadeInUp 1s ease-out 0.2s both;
+}
+
+.why-it-matter {
+    background: #F8F7F4;
+    padding: 120px 0px;
+}
+
+.why-it-matter .row {
+    min-height: 555px;
+    height: 100%;
+}
+
+.matter_img1 {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.matter_img2 {
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.together_why {
+    text-align: center;
+    max-width: 576px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* matter styling end */
+.btn-contact-wrapper {
+    margin-top: 60px;
+    animation: fadeInUp 1s ease-out 0.8s both;
+}
+
+.btn-contact-wrapper {
+    display: inline-block;
+}
+
+.btn-contact {
+    display: inline-flex;
+    align-items: center;
+    background-color: #003C43;
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 999px;
+    padding: 10px 16px 10px 20px;
+    gap: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.btn-contact:hover {
+    background-color: #002a30;
+}
+
+.icon-container {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.icon {
+    color: #003C43;
+    transition: all 0.3s ease;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon i {
+    font-size: 23px;
+    transform: rotate(45deg);
+}
+
+.icon-default {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.icon-hover {
+    transform: translateY(24px);
+    opacity: 0;
+}
+
+/* Fixed hover selectors - changed from .animated-button to .btn-contact */
+.btn-contact:hover .icon-default {
+    transform: translateY(-24px);
+    opacity: 0;
+}
+
+.btn-contact:hover .icon-hover {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* approach styling start */
+.approach {
+    padding: 60px 0px;
+}
+
+.feature-box {
+    border-right: 1px dashed #ddd;
+}
+
+
+.feature-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 36px;
+    display: block;
+}
+
+.feature-title {
+    font-weight: 600;
+    margin-bottom: 22px;
+    font-size: 22px;
+    color: #111111;
+    font-family: 'Manrope';
+    text-align: left;
+}
+
+.feature-box {
+    padding: 0 40px 0 20px;
+}
+
+.feature-list li {
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato';
+    color: #444444;
+    text-align: left;
+}
+
+.feature-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    background: url(../images/charm_circle-tick.png);
+    width: 20px;
+    height: 22px;
+}
+
+.app_on {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.feature-box.last_child {
+    border: unset;
+}
+
+/* approach styling end */
+/* Engagement styling start */
+.scale_box img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+
+.scale_box h4 {
+    font-size: 24px;
+    line-height: 34px;
+    color: #111111;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    margin: 18px 0 15px;
+}
+
+.scale_box p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+
+.scale_box {
+    background: #fff;
+    border-radius: 16px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+section.Engagement {
+    background: #f8f7f4;
+    padding: 80px 0px;
+}
+
+/* Engagement styling end */    
