@@ -1070,8 +1070,7 @@ span.footer-tag a {
     letter-spacing: 0;
     text-align: justify;
     color: var(--text-color);
-    width: 100%;
-    max-width: 590px;
+
 }
 
 .what-we-offer-item:not(:last-child) {
