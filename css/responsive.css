@@ -191,9 +191,14 @@
         margin-bottom: 20px;
     }
 
-    add new in responsive .who-we-do .image-section img {
+    .who-we-do .image-section img {
         height: auto;
         max-width: 100%;
+    }
+
+    .image-section img {
+        height: auto;
+        width: 100%;
     }
 }
 
@@ -337,10 +342,7 @@
         line-height: 40px;
     }
 
-    .image-section img {
-        height: auto;
-        width: 100%;
-    }
+
 
 }
 
