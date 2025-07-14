@@ -1573,7 +1573,11 @@ section.Engagement {
     color: #111;
     margin-bottom: 12px;
 }
-
+.modal-form form {
+    border-top: 1px solid #dbdbdb;
+    padding-top: 30px;
+    margin-top: 20px;
+}
 .modal-form textarea {
     min-height: 70px;
     resize: vertical;
