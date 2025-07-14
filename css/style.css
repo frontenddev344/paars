@@ -1039,6 +1039,7 @@ span.footer-tag a {
 .what-we-offer-item-content-inner-icon img {
     width: 80px;
     height: 80px;
+    object-fit: contain;
 }
 
 .what-we-offer-item .row {
