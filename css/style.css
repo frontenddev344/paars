@@ -724,7 +724,7 @@ span.menu-close {
 .building-better-card-icon img {
     width: 40px;
     height: 40px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .building-better-card-content p {
