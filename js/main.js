@@ -6,7 +6,7 @@ function closeNav() {
     document.getElementById("mySidenavs").style.width = "0";
 }
 
-document.querySelector('.btn-contact').addEventListener('click', function(e) {
+document.querySelector('.btn-contact').addEventListener('click', function (e) {
     e.preventDefault();
     const button = e.currentTarget;
     const ripple = document.createElement('span');
@@ -31,7 +31,7 @@ document.querySelector('.btn-contact').addEventListener('click', function(e) {
 });
 
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const cards = document.querySelectorAll('.our_service_card');
     function revealOnScroll() {
         const trigger = window.innerHeight * 0.92;
@@ -46,3 +46,17 @@ document.addEventListener('DOMContentLoaded', function() {
     revealOnScroll(); // initial check
 });
 
+
+//  header sticky js start  
+const header = document.querySelector("header");
+const toggleClass = "is-sticky";
+
+window.addEventListener("scroll", () => {
+    const currentScroll = window.pageYOffset;
+    if (currentScroll > 150) {
+        header.classList.add(toggleClass);
+    } else {
+        header.classList.remove(toggleClass);
+    }
+});
+//  header sticky js end
