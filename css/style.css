@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -1020,4 +1024,9 @@ span.footer-tag {
 
 .other-services .our_service_card {
     height: 100%;
+}
+
+.other-services .our_service_card .our_service_icon img {
+    width: 60px;
+    height: 60px;
 }
