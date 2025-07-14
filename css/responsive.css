@@ -98,6 +98,40 @@
     .image-center img {
         height: 400px;
     }
+
+    .text-main h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .who-we-are {
+        padding: 40px 0px;
+    }
+
+    .pras_has {
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .btn-contact-wrapper {
+        margin-top: 20px;
+    }
+
+    .who-we-do {
+        padding: 40px 0;
+    }
+
+    .why-it-matter {
+        padding: 40px 0px;
+    }
+
+    .approach {
+        padding: 40px 0px;
+    }
+
+    section.Engagement {
+        padding: 40px 0px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -116,6 +150,40 @@
 
     .footer-menu-wrapper ul {
         gap: 10px;
+    }
+
+    .together_why {
+        margin: 30px 0;
+    }
+
+    .together_why {
+        max-width: 100%;
+    }
+
+    .text-main {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .text-section {
+        max-width: 100%;
+        margin-top: 30px;
+    }
+
+    .feature-box {
+        border-right: unset;
+    }
+
+    .feature-box {
+        padding: 0 40px 40px 20px;
+    }
+
+    .feature-icon {
+        margin-bottom: 20px;
+    }
+
+    .feature-box.last_child {
+        padding-bottom: 0;
     }
 }
 
@@ -240,15 +308,36 @@
         margin-bottom: 30px;
     }
 
+    .text-main h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .image-section img {
+        height: auto;
+    }
+
+    .pras_has {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .section_title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
 }
 
 @media (max-width: 575px) {
     .hero-content-left h1 {
         font-size: 32px;
     }
-
     .section_title {
         font-size: 30px;
-
+    }
+    .text-main h1 {
+        font-size: 32px;
+        line-height: 42px;
     }
 }
