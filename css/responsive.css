@@ -64,9 +64,6 @@
         grid-area: card4;
     }
 
-    .feature-box img {
-        margin: 0 auto;
-    }
 
     .left-col .feature-box {
         width: 50%;
@@ -139,6 +136,10 @@
 
     .our_service_main .row {
         row-gap: 20px;
+    }
+
+    .approach .feature-box img {
+        text-align: left;
     }
 }
 
@@ -380,6 +381,11 @@
     .approach-grid .feature-box {
         padding: 20px 0 0;
         margin-bottom: 0;
+    }
+
+    .approach-grid .feature-icon {
+        width: 40px;
+        height: 40px;
     }
 }
 

@@ -378,6 +378,18 @@ span.menu-close {
     animation: fadeInRight 1s ease-out 0.4s both;
 }
 
+.services_page .feature-box {
+    border: 1px solid #11111126;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.services_page .feature-box:hover {
+    background-color: var(--quaternary-color);
+}
+
+
+
 @keyframes ripple {
     to {
         transform: scale(2);
