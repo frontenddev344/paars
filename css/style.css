@@ -1017,3 +1017,7 @@ span.footer-tag {
 .other-services-content {
     text-align: center;
 }
+
+.other-services .our_service_card {
+    height: 100%;
+}
