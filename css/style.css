@@ -1518,6 +1518,7 @@ section.Engagement {
     color: #0072b1;
     text-decoration: none;
 }
+
 .modal-form-inner img {
     margin-bottom: 75px;
 }
@@ -1579,13 +1580,16 @@ section.Engagement {
     font-weight: 600;
     cursor: pointer;
     font-family: 'Manrope';
-    transition: background 0.2s;
     display: inline-block;
+    border: 1px solid #003C43;
+    transition: all 0.3s ease;
     width: 100%;
 }
 
 .modal-form button:hover {
-    background: #005a8c;
+    background: transparent;
+    border: 1px solid #003C43;
+    color: #003C43;
 }
 
 .modal-image img {
