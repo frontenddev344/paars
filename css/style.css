@@ -1110,6 +1110,11 @@ ul.feature-list {
     color: #444444;
 }
 
+.approach .disc-text {
+    max-width: 894px;
+    margin: 0 auto;
+}
+
 .who-we-are {
     background: #F8F7F4;
     padding: 80px 0px 100px;
