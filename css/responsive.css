@@ -377,6 +377,10 @@
         text-align: left;
     }
 
+    .approach-grid .feature-box {
+        padding: 20px 0 0;
+        margin-bottom: 0;
+    }
 }
 
 @media (max-width: 575px) {
