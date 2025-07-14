@@ -225,6 +225,9 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    .matter_img2 {
+        margin-top: 30px;
+    }
 }
 
 @media (max-width: 767px) {
