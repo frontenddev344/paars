@@ -829,6 +829,10 @@ span.footer-tag {
     display: inline-block;
 }
 
+span.footer-tag a {
+    color: #003C43;
+}
+
 .footer-tags-row {
     border-bottom: 1px solid #11111126;
     padding-bottom: 22px;
