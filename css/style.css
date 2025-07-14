@@ -1442,4 +1442,10 @@ section.Engagement {
     background: #f8f7f4;
     padding: 80px 0px 10px;
 }
+
+.matter_img1 img,
+.matter_img2 img {
+    width: 100%;
+}
+
 /* Engagement styling end */
