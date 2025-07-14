@@ -1074,6 +1074,16 @@ span.footer-tag a {
     margin: 12px 0 20px;
 }
 
+.image-section img {
+    width: 100%;
+    max-width: 482px;
+
+}
+
+.image-section {
+    text-align: right;
+}
+
 .disc-text {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
