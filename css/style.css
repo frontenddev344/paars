@@ -1471,6 +1471,8 @@ section.Engagement {
     display: flex;
     align-items: center;
     justify-content: center;
+    backdrop-filter: blur(6px);
+
 }
 
 .modal-content {
@@ -1510,15 +1512,16 @@ section.Engagement {
     position: relative;
 }
 
-.modal-contact-info {
-    margin-top: 24px;
-    font-size: 15px;
-}
+
 
 .modal-contact-info a {
     color: #0072b1;
     text-decoration: none;
 }
+.modal-form-inner img {
+    margin-bottom: 75px;
+}
+
 
 .modal-form {
     flex: 1 1 60%;
@@ -1567,14 +1570,18 @@ section.Engagement {
 }
 
 .modal-form button {
-    background: #0072b1;
+    background: #003C43;
     color: #fff;
     border: none;
     padding: 12px 0;
     border-radius: 6px;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 600;
     cursor: pointer;
+    font-family: 'Manrope';
     transition: background 0.2s;
+    display: inline-block;
+    width: 100%;
 }
 
 .modal-form button:hover {
