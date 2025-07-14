@@ -388,6 +388,10 @@ span.menu-close {
     background-color: var(--quaternary-color);
 }
 
+.services_page .feature-box p {
+    width: 100%;
+    max-width: 339px;
+}
 
 
 @keyframes ripple {
@@ -1159,6 +1163,8 @@ ul.feature-list {
 /* what we do styling start */
 .who-we-do {
     padding: 80px 0;
+    background: #fff;
+
 }
 
 .pras_has {
@@ -1331,6 +1337,7 @@ ul.feature-list {
 
 /* approach styling start */
 .approach {
+    background: #fff;
     padding: 60px 0px;
 }
 

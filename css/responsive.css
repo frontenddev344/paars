@@ -71,6 +71,7 @@
 
     .left-col {
         display: flex;
+        justify-content: space-between;
     }
 
     .right-cols {
@@ -88,8 +89,10 @@
         text-align: center;
     }
 
-    .right-cols .feature-box {
+    .right-cols .feature-box,
+    .left-col .feature-box {
         width: 48%;
+        height: 100%;
     }
 
     .image-center img {
@@ -352,7 +355,10 @@
         line-height: 50px;
     }
 
-
+    .right-cols .feature-box,
+    .left-col .feature-box {
+        height: auto;
+    }
 
     .pras_has {
         font-size: 30px;
@@ -378,14 +384,12 @@
         text-align: left;
     }
 
-    .approach-grid .feature-box {
-        padding: 20px 0 0;
-        margin-bottom: 0;
-    }
 
-    .approach-grid .feature-icon {
+
+    .approach-grid .feature-icon img {
         width: 40px;
         height: 40px;
+        margin-bottom: 10px;
     }
 }
 
