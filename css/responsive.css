@@ -231,6 +231,16 @@
     .matter_img2 {
         margin-top: 30px;
     }
+
+    .modal-form-inner img {
+        margin-bottom: 15px;
+    }
+
+    .modal-inner {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 767px) {
