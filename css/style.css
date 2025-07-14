@@ -1440,7 +1440,6 @@ section.Engagement .row .col-lg-6 {
 
 section.Engagement {
     background: #f8f7f4;
-    padding: 80px 0px;
+    padding: 80px 0px 10px;
 }
-
 /* Engagement styling end */
