@@ -69,3 +69,21 @@ window.addEventListener("scroll", () => {
 });
 //  header sticky js end
 
+
+
+// Show modal on page load
+window.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('contactModal').style.display = 'flex';
+  });
+  
+  // Close modal on X click
+  document.getElementById('closeModal').onclick = function() {
+    document.getElementById('contactModal').style.display = 'none';
+  };
+  
+  // Optional: Close modal when clicking outside the modal content
+  document.getElementById('contactModal').onclick = function(e) {
+    if (e.target === this) {
+      this.style.display = 'none';
+    }
+  };
