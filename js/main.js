@@ -1,9 +1,12 @@
-function openNav() {
-    document.getElementById("mySidenavs").style.width = "100%";
+  // Open/Close Nav
+  function openNav() {
+    document.getElementById("mySidenavs").classList.add("open");
+    document.getElementById("menuOverlay").classList.add("active");
 }
 
 function closeNav() {
-    document.getElementById("mySidenavs").style.width = "0";
+    document.getElementById("mySidenavs").classList.remove("open");
+    document.getElementById("menuOverlay").classList.remove("active");
 }
 
 // Ripple effect on button
