@@ -1115,8 +1115,19 @@ span.footer-tag a {
 }
 
 .text-section {
-    max-width: 690px;
-    float: right;
+    max-width: 633px;
+    margin: 0 0 0 auto;
+}
+
+.who-we-do .image-section img {
+    height: 537px;
+    object-fit: cover;
+    border-radius: 24px;
+    max-width: 547px;
+}
+
+.text-section .btn-contact-wrapper {
+    margin-top: 24px;
 }
 
 .text-section p {

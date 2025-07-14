@@ -185,6 +185,16 @@
     .feature-box.last_child {
         padding-bottom: 0;
     }
+
+    .text-main {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    add new in responsive .who-we-do .image-section img {
+        height: auto;
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 767px) {
@@ -327,15 +337,22 @@
         line-height: 40px;
     }
 
+    .image-section img {
+        height: auto;
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 575px) {
     .hero-content-left h1 {
         font-size: 32px;
     }
+
     .section_title {
         font-size: 30px;
     }
+
     .text-main h1 {
         font-size: 32px;
         line-height: 42px;
