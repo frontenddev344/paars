@@ -230,10 +230,12 @@
         padding-top: 60px;
         max-width: 300px;
     }
-    .menu-list.open{
+
+    .menu-list.open {
         width: 100%;
         transition: width 0.3s ease;
     }
+
     .articles .row .col-lg-4.col-md-6 {
         margin-bottom: 30px;
     }
@@ -274,6 +276,10 @@
         font-size: 26px;
         font-weight: 400;
         color: var(--quinary-color);
+    }
+
+    .right-col {
+        max-width: 100%;
     }
 
     span.menu-close {
