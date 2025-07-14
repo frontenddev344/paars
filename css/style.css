@@ -394,6 +394,11 @@ span.menu-close {
 
 }
 
+.how_we_work_left_content h3 {
+    width: 100%;
+    max-width: 500px;
+}
+
 .disc-text {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -408,12 +413,18 @@ span.menu-close {
     margin-top: 40px;
 }
 
+.our_service .our_service_main .row .col-lg-6:first-child,
+.our_service .our_service_main .row .col-lg-6:nth-child(2) {
+    margin-bottom: 24px;
+}
+
 .our_service_card {
     box-shadow: 0px 0px 4px 0px #003C430F;
     background: var(--quaternary-color);
     padding: 30px;
     border-radius: 12px;
-    margin-bottom: 24px;
+
+    height: 100%;
 }
 
 .our_service_icon {
@@ -840,7 +851,7 @@ footer.footer {
     letter-spacing: 0px;
     color: var(--text-color);
     width: 100%;
-    max-width: 929px;
+    max-width: 890px;
     margin: 0 auto;
 }
 
@@ -1086,6 +1097,10 @@ span.footer-tag a {
     text-align: right;
 }
 
+ul.feature-list {
+    padding-left: 0;
+}
+
 .disc-text {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -1149,15 +1164,7 @@ span.footer-tag a {
 
 /* what we do styling end */
 /* matter styling start */
-.section_title {
-    font-family: 'Manrope', sans-serif;
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 120%;
-    letter-spacing: -0.5px;
-    margin-top: 12px;
-    margin-bottom: 20px;
-}
+
 
 .reform-title {
     border: 1px solid rgba(0, 60, 67, 0.1);

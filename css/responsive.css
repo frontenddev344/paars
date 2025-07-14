@@ -206,7 +206,13 @@
 
     .image-section img {
         height: auto;
+        max-width: 100%;
+    }
+
+    .matter_img1 img,
+    .matter_img2 img {
         width: 100%;
+        height: auto;
     }
 }
 
@@ -336,9 +342,7 @@
         line-height: 50px;
     }
 
-    .image-section img {
-        height: auto;
-    }
+
 
     .pras_has {
         font-size: 30px;
