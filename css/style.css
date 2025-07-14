@@ -1380,12 +1380,19 @@ ul.feature-list {
     color: #444;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
+    width: 100%;
+    max-width: 443px;
+    margin: 0;
 }
 
 .scale_box {
     background: #fff;
     border-radius: 16px;
     padding: 30px;
+    height: 100%;
+}
+
+section.Engagement .row .col-lg-6 {
     margin-bottom: 30px;
 }
 
