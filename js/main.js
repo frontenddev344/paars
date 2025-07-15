@@ -284,19 +284,22 @@ window.addEventListener("scroll", () => {
 
 
 
-// Show modal on .btn-contact click
-document.querySelector('.getInTouch').addEventListener('click', function () {
-    document.getElementById('contactModal').style.display = 'flex';
-});
-
-// Close modal on X (close button) click
-document.getElementById('closeModal').addEventListener('click', function () {
+// Show modal on every .getInTouch click (all matching buttons)
+document.querySelectorAll('.getInTouch').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      document.getElementById('contactModal').style.display = 'flex';
+    });
+  });
+  
+  // Close modal on X (close button) click
+  document.getElementById('closeModal').addEventListener('click', function () {
     document.getElementById('contactModal').style.display = 'none';
-});
-
-// Close modal when clicking outside the modal content
-document.getElementById('contactModal').addEventListener('click', function (e) {
+  });
+  
+  // Close modal when clicking outside the modal content
+  document.getElementById('contactModal').addEventListener('click', function (e) {
     if (e.target === this) {
-        this.style.display = 'none';
+      this.style.display = 'none';
     }
-});
+  });
+  
