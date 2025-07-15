@@ -520,4 +520,8 @@
         line-height: 42px;
     }
 
+    .modal-form input,
+    .modal-form textarea {
+        padding: 10px 12px;
+    }
 }
