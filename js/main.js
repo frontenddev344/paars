@@ -1,5 +1,5 @@
-  // Open/Close Nav
-  function openNav() {
+// Open/Close Nav
+function openNav() {
     document.getElementById("mySidenavs").classList.add("open");
     document.getElementById("menuOverlay").classList.add("active");
 }
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Enhanced scroll animations for all sections
     const animatedElements = document.querySelectorAll('.section-fade-in, .section-fade-in-left, .section-fade-in-right, .section-slide-up, .section-scale-in, .section-bounce-in, .section-zoom-in, .fade-in-on-scroll');
-    
+
     const observerOptions = {
         threshold: 0.1,
         rootMargin: '0px 0px -50px 0px'
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const text = element.textContent;
         element.textContent = '';
         element.style.width = '0';
-        
+
         let i = 0;
         const typeWriter = () => {
             if (i < text.length) {
@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 setTimeout(typeWriter, 100);
             }
         };
-        
+
         // Start typing animation when element is visible
         const typingObserver = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Hover animations
     const hoverElements = document.querySelectorAll('.hover-lift, .hover-scale, .card-animate');
     hoverElements.forEach(element => {
-        element.addEventListener('mouseenter', function() {
+        element.addEventListener('mouseenter', function () {
             this.style.transition = 'all 0.3s ease';
         });
     });
@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Button shine effect
     const btnAnimateElements = document.querySelectorAll('.btn-animate');
     btnAnimateElements.forEach(button => {
-        button.addEventListener('mouseenter', function() {
+        button.addEventListener('mouseenter', function () {
             this.style.overflow = 'hidden';
         });
     });
@@ -139,10 +139,10 @@ document.addEventListener('DOMContentLoaded', function () {
     // Glow effect for important elements
     const glowElements = document.querySelectorAll('.glow');
     glowElements.forEach(element => {
-        element.addEventListener('mouseenter', function() {
+        element.addEventListener('mouseenter', function () {
             this.style.animation = 'glow 1s ease-in-out infinite alternate';
         });
-        element.addEventListener('mouseleave', function() {
+        element.addEventListener('mouseleave', function () {
             this.style.animation = 'glow 2s ease-in-out infinite alternate';
         });
     });
@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Shake animation for notifications or alerts
     const shakeElements = document.querySelectorAll('.shake');
     shakeElements.forEach(element => {
-        element.addEventListener('click', function() {
+        element.addEventListener('click', function () {
             this.style.animation = 'shake 0.5s ease-in-out';
             setTimeout(() => {
                 this.style.animation = '';
@@ -161,10 +161,10 @@ document.addEventListener('DOMContentLoaded', function () {
     // Rotate animation for loading spinners
     const rotateElements = document.querySelectorAll('.rotate');
     rotateElements.forEach(element => {
-        element.addEventListener('mouseenter', function() {
+        element.addEventListener('mouseenter', function () {
             this.style.animation = 'rotate 1s linear infinite';
         });
-        element.addEventListener('mouseleave', function() {
+        element.addEventListener('mouseleave', function () {
             this.style.animation = 'rotate 2s linear infinite';
         });
     });
@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Pulse animation for loading states
     const pulseElements = document.querySelectorAll('.pulse');
     pulseElements.forEach(element => {
-        element.addEventListener('click', function() {
+        element.addEventListener('click', function () {
             this.style.animation = 'pulse 1s ease-in-out';
             setTimeout(() => {
                 this.style.animation = 'pulse 2s infinite';
@@ -224,8 +224,8 @@ document.addEventListener('DOMContentLoaded', function () {
         const imageObserver = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    entry.target.style.animation = entry.target.classList.contains('image-fade-in') 
-                        ? 'fadeInRight 1s ease-out 0.5s both' 
+                    entry.target.style.animation = entry.target.classList.contains('image-fade-in')
+                        ? 'fadeInRight 1s ease-out 0.5s both'
                         : 'scaleIn 1s ease-out 0.5s both';
                     imageObserver.unobserve(entry.target);
                 }
@@ -234,21 +234,6 @@ document.addEventListener('DOMContentLoaded', function () {
         imageObserver.observe(image);
     });
 
-    // Smooth scroll for anchor links
-    const anchorLinks = document.querySelectorAll('a[href^="#"]');
-    anchorLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const targetId = this.getAttribute('href');
-            const targetElement = document.querySelector(targetId);
-            if (targetElement) {
-                targetElement.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
-            }
-        });
-    });
 
     // Add animation classes to existing elements
     function addAnimationClasses() {
@@ -299,19 +284,19 @@ window.addEventListener("scroll", () => {
 
 
 
-// Show modal on page load
-window.addEventListener('DOMContentLoaded', function() {
+// Show modal on .btn-contact click
+document.querySelector('.getInTouch').addEventListener('click', function () {
     document.getElementById('contactModal').style.display = 'flex';
-  });
-  
-  // Close modal on X click
-  document.getElementById('closeModal').onclick = function() {
+});
+
+// Close modal on X (close button) click
+document.getElementById('closeModal').addEventListener('click', function () {
     document.getElementById('contactModal').style.display = 'none';
-  };
-  
-  // Optional: Close modal when clicking outside the modal content
-  document.getElementById('contactModal').onclick = function(e) {
+});
+
+// Close modal when clicking outside the modal content
+document.getElementById('contactModal').addEventListener('click', function (e) {
     if (e.target === this) {
-      this.style.display = 'none';
+        this.style.display = 'none';
     }
-  };
+});
