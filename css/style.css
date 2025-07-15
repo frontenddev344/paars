@@ -457,9 +457,9 @@ span.menu-close {
     background: var(--quaternary-color);
     padding: 30px;
     border-radius: 12px;
-
     height: 100%;
 }
+
 
 .our_service_icon {
     margin-bottom: 24px;
@@ -840,6 +840,7 @@ span.menu-close {
     color: var(--quinary-color);
     position: relative;
 }
+
 .read-more a::after {
     content: '';
     position: absolute;
@@ -850,6 +851,7 @@ span.menu-close {
     background: var(--quinary-color);
     transition: width 0.3s cubic-bezier(.77, 0, .18, 1);
 }
+
 .read-more a:hover::after {
     width: 100%;
 }
@@ -1488,6 +1490,43 @@ section.Engagement {
 .matter_img1 img,
 .matter_img2 img {
     width: 100%;
+    animation: up-down linear 4s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    -webkit-animation: up-down linear 4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform-origin: 50% 50%;
+    -moz-animation: up-down linear 4s;
+    -moz-animation-iteration-count: infinite;
+    -moz-transform-origin: 50% 50%;
+    -o-animation: up-down linear 4s;
+    -o-animation-iteration-count: infinite;
+    -o-transform-origin: 50% 50%;
+    -ms-animation: up-down linear 4s;
+    -ms-animation-iteration-count: infinite;
+    -ms-transform-origin: 50% 50%;
+}
+
+@keyframes up-down {
+    0% {
+        transform: translate(1px, 20px);
+    }
+
+    24% {
+        transform: translate(1px, 30px);
+    }
+
+    50% {
+        transform: translate(1px, 12px);
+    }
+
+    74% {
+        transform: translate(1px, 22px);
+    }
+
+    100% {
+        transform: translate(1px, 22px);
+    }
 }
 
 .together_why {
