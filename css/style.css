@@ -1573,11 +1573,13 @@ section.Engagement {
     color: #111;
     margin-bottom: 12px;
 }
+
 .modal-form form {
     border-top: 1px solid #dbdbdb;
     padding-top: 30px;
     margin-top: 20px;
 }
+
 .modal-form textarea {
     min-height: 70px;
     resize: vertical;
@@ -1620,6 +1622,8 @@ section.Engagement {
     object-fit: cover;
     z-index: 0;
     border-radius: unset !important;
+    transform: scaleX(-1);
+
 }
 
 .modal-contact-info {
@@ -1648,6 +1652,4 @@ section.Engagement {
     font-size: 18px;
 }
 
-@media (max-width: 700px) {
-   
-}
+@media (max-width: 700px) {}
