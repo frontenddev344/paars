@@ -1,0 +1,8 @@
+.menu-list ul li.current-menu-item  a {
+    color: var(--quinary-color);
+}
+
+.menu-list ul li.current-menu-item a:hover::after,
+.menu-list ul li.current-menu-item a::after{
+    width: 100%;
+}
