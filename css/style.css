@@ -1649,18 +1649,5 @@ section.Engagement {
 }
 
 @media (max-width: 700px) {
-    .modal-inner {
-        flex-direction: column;
-    }
-
-    .modal-image,
-    .modal-form {
-        min-width: 0;
-        width: 100%;
-        padding: 18px;
-    }
-
-    .modal-content {
-        padding: 0;
-    }
+   
 }
