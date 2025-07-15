@@ -268,6 +268,18 @@
         font-size: 16px;
     }
 
+    .modal-contact-info p {
+        font-size: 14px;
+    }
+
+    .modal-contact-info {
+        padding: 20px 10px;
+
+    }
+
+    .modal-contact-info a {
+        font-size: 14px;
+    }
 
 
 }
@@ -507,4 +519,5 @@
         font-size: 32px;
         line-height: 42px;
     }
+
 }
