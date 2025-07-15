@@ -258,11 +258,18 @@
         margin-bottom: 15px;
     }
 
- 
+
 
     .modal-form h3 {
         font-size: 24px;
     }
+
+    .modal-contact-info a {
+        font-size: 16px;
+    }
+
+
+
 }
 
 @media (max-width: 767px) {
@@ -283,6 +290,11 @@
     .menu-list.open {
         width: 100%;
         transition: width 0.3s ease;
+    }
+
+    .modal-image img {
+        left: 0;
+        bottom: 0;
     }
 
     .what-we-offer-item-content p br {
@@ -315,11 +327,9 @@
     .col-lg-4.col-md-4.two {
         order: 1;
     }
-    .modal-inner {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
+
+
+
     .col-lg-4.col-md-4.three {
         order: 3;
     }
@@ -452,6 +462,24 @@
 
     .modal-inner {
         flex-direction: column;
+    }
+
+    .modal-content {
+        height: 700px;
+        overflow: auto;
+    }
+
+    .modal-image {
+        flex: auto;
+        height: 300px;
+    }
+
+    .modal-contact-info {
+        margin-top: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
     }
 
     .modal-image,
