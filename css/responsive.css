@@ -1,4 +1,27 @@
 /* Responsive styles */
+@media (max-width: 1440px) {
+    .modal-form-inner img {
+        margin-bottom: 45px;
+    }
+
+    .modal-form h3 {
+        font-size: 32px;
+    }
+
+    .modal-form h3 {
+        font-size: 20px;
+    }
+
+    .modal-form input,
+    .modal-form textarea {
+
+        padding: 14px 12px;
+
+    }
+}
+
+
+
 @media (max-width: 1199px) {
     .hero-section {
         padding: 40px 0 40px;
