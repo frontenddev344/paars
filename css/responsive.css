@@ -426,7 +426,7 @@
         font-size: 18px;
     }
 
-    .menu-list ul li a.active {
+    .menu-list ul li.active a {
         color: var(--quaternary-color);
     }
 
