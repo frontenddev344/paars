@@ -156,11 +156,11 @@ span.sub-menu-icon {
     overflow: hidden;
 }
 
-.menu-list ul li a.active {
+.menu-list ul li.active>a {
     color: var(--quinary-color);
 }
 
-.menu-list ul li a::after {
+.menu-list ul li> a::after {
     content: '';
     position: absolute;
     left: 0;
@@ -171,8 +171,12 @@ span.sub-menu-icon {
     transition: width 0.3s cubic-bezier(.77, 0, .18, 1);
 }
 
+li.active span.sub-menu-icon i {
+    color: var(--quinary-color);
+}
+
 .menu-list ul li a:hover::after,
-.menu-list ul li a.active::after {
+.menu-list ul li.active > a::after {
     width: 100%;
 }
 
