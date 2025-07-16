@@ -894,6 +894,7 @@ footer.footer {
     letter-spacing: 0;
     color: var(--text-color);
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .footer-menu-wrapper ul li a:hover {
