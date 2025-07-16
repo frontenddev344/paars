@@ -148,8 +148,9 @@ span.sub-menu-icon {
     position: absolute;
     top: 4px;
     color: var(--primary-color);
-    right: -18px;
+    right: -15px;
     cursor: pointer;
+    font-size: 14px;
 }
 
 .main-content {
@@ -586,20 +587,14 @@ span.menu-close {
     }
 }
 
-.our_service_card {
-    opacity: 0;
-    transform: translateY(40px) scale(0.98);
 
-}
 
 .our_service_card:hover {
     border-top: 1px solid var(--quinary-color);
 }
 
 
-.our_service_card.animated {
-    animation: serviceFadeInUp 0.8s cubic-bezier(.77, 0, .18, 1) both;
-}
+
 
 
 /* our_service  end*/
@@ -1405,17 +1400,7 @@ ul.feature-list {
     background-color: #002a30;
 }
 
-.icon-container {
-    position: relative;
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
+
 
 .icon {
     color: #003C43;
