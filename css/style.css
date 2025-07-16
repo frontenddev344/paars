@@ -1226,7 +1226,7 @@ span.footer-tag a {
 /* about us page css start */
 /* about page styling start */
 .text-main h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     font-family: 'Manrope';
     line-height: 70px;
@@ -1280,7 +1280,7 @@ ul.feature-list {
 }
 
 .pras_has {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 600;
     line-height: 58px;
     color: #111;
@@ -1445,6 +1445,7 @@ ul.feature-list {
 
 section.approach .feature-box {
     border: none;
+    border-radius: none;
 }
 
 .approach .feature-box {
