@@ -1,4 +1,12 @@
 /* Responsive styles */
+@media (max-width: 1600px) {
+
+    span.footer-tag {
+        padding: 14px 20px !important;
+    }
+
+}
+
 @media (max-width: 1440px) {
     .modal-form-inner img {
         margin-bottom: 45px;
