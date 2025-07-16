@@ -362,6 +362,8 @@
         max-width: 100%;
     }
 
+
+
     span.menu-close {
         padding: 6px 6px;
         display: block;
@@ -377,6 +379,11 @@
         right: 7px;
         top: 5px;
         font-size: 18px;
+    }
+
+    .dropdown:hover .sub-menu {
+        opacity: 0;
+
     }
 
     .menu-icon {
@@ -503,6 +510,22 @@
 
     .modal-content {
         padding: 0;
+    }
+
+    span.sub-menu-icon {
+
+        color: #fffdfd;
+        right: 183px;
+
+    }
+
+
+    .sub-menu {
+        padding: 10px !important;
+    }
+
+    .sub-menu li a {
+        color: var(--primary-color) !important;
     }
 }
 
