@@ -160,7 +160,7 @@ span.sub-menu-icon {
     color: var(--quinary-color);
 }
 
-.menu-list ul li> a::after {
+.menu-list ul li>a::after {
     content: '';
     position: absolute;
     left: 0;
@@ -176,7 +176,7 @@ li.active span.sub-menu-icon i {
 }
 
 .menu-list ul li a:hover::after,
-.menu-list ul li.active > a::after {
+.menu-list ul li.active>a::after {
     width: 100%;
 }
 
@@ -322,8 +322,8 @@ span.menu-close {
 
 .icon-container {
     position: relative;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background-color: var(--bg-btn-color);
     border-radius: 50%;
     display: flex;
@@ -516,6 +516,7 @@ span.menu-close {
     padding: 30px;
     border-radius: 12px;
     height: 100%;
+    transition: opacity 0.7s cubic-bezier(.77, 0, .18, 1), transform 0.7s cubic-bezier(.77, 0, .18, 1);
     cursor: pointer;
 }
 
@@ -587,8 +588,11 @@ span.menu-close {
 .our_service_card {
     opacity: 0;
     transform: translateY(40px) scale(0.98);
-    transition: opacity 0.7s cubic-bezier(.77, 0, .18, 1), transform 0.7s cubic-bezier(.77, 0, .18, 1);
-    /* fallback for browsers without JS */
+
+}
+
+.our_service_card:hover {
+    transform: translateY(-10px) !important;
 }
 
 .our_service_card.animated {
@@ -736,6 +740,11 @@ span.menu-close {
 .feature-box {
     border: 1px solid #11111126;
     border-radius: 12px;
+    transform: all 0.3s;
+}
+
+.feature-box:hover {
+    background-color: #fff;
 }
 
 .approach-grid .feature-box h3 {
@@ -865,7 +874,7 @@ span.menu-close {
 .article-card-content h4 {
     font-family: 'Manrope', sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 130%;
     letter-spacing: 0;
     color: var(--primary-color);
@@ -978,7 +987,7 @@ footer.footer {
 .center-footer-inner p {
     font-family: Lato, sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 25px;
     letter-spacing: 0px;
     color: var(--text-color);
@@ -994,7 +1003,7 @@ span.footer-tag {
     line-height: 16.5px;
     letter-spacing: 0;
     text-align: center;
-    padding: 14px 20px !important;
+    padding: 14px 31px !important;
     color: #003C43;
     border-radius: 23px;
     display: inline-block;
@@ -1018,7 +1027,7 @@ span.footer-tag a {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 30px;
     justify-content: center;
 }
 
@@ -1378,7 +1387,7 @@ ul.feature-list {
     background-color: #003C43;
     color: #fff;
     font-family: 'Manrope', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     text-decoration: none;
     border-radius: 999px;
@@ -1395,8 +1404,8 @@ ul.feature-list {
 
 .icon-container {
     position: relative;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background-color: white;
     border-radius: 50%;
     display: flex;
@@ -1415,7 +1424,7 @@ ul.feature-list {
 }
 
 .icon i {
-    font-size: 23px;
+    font-size: 20px;
     transform: rotate(45deg);
 }
 
