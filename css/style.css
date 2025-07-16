@@ -1443,8 +1443,12 @@ ul.feature-list {
     padding: 60px 0px;
 }
 
+section.approach .feature-box {
+    border: none;
+}
+
 .approach .feature-box {
-    border-right: 1px dashed #ddd;
+    border-right: 1px dashed #ddd !important;
 }
 
 
@@ -1498,7 +1502,7 @@ ul.feature-list {
 }
 
 .feature-box.last_child {
-    border: unset;
+    border: unset !important;
 }
 
 /* approach styling end */
