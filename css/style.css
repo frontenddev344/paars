@@ -93,7 +93,7 @@ header.is-sticky {
     font-family: 'Manrope', sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1;
     letter-spacing: 0;
     vertical-align: middle;
@@ -266,14 +266,14 @@ span.menu-close {
 .hero-content-left h1 {
     font-family: 'Manrope', sans-serif;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 50px;
     color: var(--primary-color);
     line-height: 120%;
     letter-spacing: -0.3px;
     width: 100%;
     margin-top: 12px;
     margin-bottom: 20px;
-    max-width: 583px;
+    max-width: 490px;
     animation: fadeInUp 1s ease-out 0.4s both;
 
 }
@@ -281,7 +281,7 @@ span.menu-close {
 .hero-content-left p {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 150%;
     letter-spacing: 0;
     color: var(--text-color);
@@ -305,7 +305,7 @@ span.menu-close {
     background-color: #003C43;
     color: #fff;
     font-family: 'Manrope', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     text-decoration: none;
     border-radius: 999px;
@@ -477,7 +477,7 @@ span.menu-close {
 .section_title {
     font-family: 'Manrope', sans-serif;
     font-weight: 700;
-    font-size: 42px;
+    font-size: 40px;
     line-height: 120%;
     letter-spacing: -0.5px;
     margin-top: 12px;
@@ -494,7 +494,7 @@ span.menu-close {
 .disc-text {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 150%;
     letter-spacing: 0;
     color: var(--text-color);
@@ -516,6 +516,7 @@ span.menu-close {
     padding: 30px;
     border-radius: 12px;
     height: 100%;
+    cursor: pointer;
 }
 
 
@@ -526,7 +527,7 @@ span.menu-close {
 .our_service_text_box h3 {
     font-family: 'Manrope', sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 130%;
     letter-spacing: 0;
     color: var(--primary-color);
@@ -741,7 +742,7 @@ span.menu-close {
     font-family: 'Manrope', sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 26px;
     letter-spacing: 0;
     color: var(--primary-color);
@@ -811,7 +812,7 @@ span.menu-close {
 .building-better-card-content h4 {
     font-family: 'Manrope', sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 130%;
     letter-spacing: 0;
     color: var(--primary-color);
@@ -1243,7 +1244,7 @@ ul.feature-list {
 .disc-text {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 150%;
     letter-spacing: 0;
     color: #444444;
