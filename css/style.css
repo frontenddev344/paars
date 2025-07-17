@@ -958,13 +958,13 @@ footer.footer {
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 0;
-    color: var(--text-color);
+    color: var(--text-color) !important;
     transition: all 0.3s ease;
     cursor: pointer;
 }
 
 .footer-menu-wrapper ul li a:hover {
-    color: var(--quinary-color);
+    color: var(--quinary-color) !important;
 }
 
 .center-footer-inner {
