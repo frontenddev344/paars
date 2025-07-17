@@ -1445,7 +1445,7 @@ ul.feature-list {
 
 section.approach .feature-box {
     border: none;
-    border-radius: none;
+    border-radius: 0 !important;
 }
 
 .approach .feature-box {
