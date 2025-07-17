@@ -33,10 +33,10 @@
     color: #003C43;
 }
 
-.modal-form form  p {
+.modal-form form p {
     margin: 0;
 }
-.current-menu-item ul.sub-menu li a::after {
-width:0;
-}
 
+.current-menu-item ul.sub-menu li a::after {
+    width: 0;
+}
