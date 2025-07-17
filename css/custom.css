@@ -10,7 +10,6 @@
 .modal-form textarea {
     height: 137px;
 }
-
 .modal-form input.wpcf7-form-control.wpcf7-submit {
     background: #003C43;
     color: #fff;
@@ -26,17 +25,14 @@
     margin-bottom: 0;
     width: 100%;
 }
-
 .modal-form input.wpcf7-form-control.wpcf7-submit:hover {
     background: transparent;
     border: 1px solid #003C43 !important;
     color: #003C43;
 }
-
 .modal-form form p {
     margin: 0;
 }
-
 .current-menu-item ul.sub-menu li a::after {
     width: 0;
 }
