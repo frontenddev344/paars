@@ -2090,6 +2090,10 @@ section.Engagement {
     object-fit: contain;
 }
 
+.related_blogs .blog-card-wrapper {
+    margin-top: 40px;
+}
+
 .expertise-card-content h3 {
     font-family: 'Manrope', sans-serif;
     font-weight: 700;
