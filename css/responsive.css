@@ -375,6 +375,12 @@
         display: none;
     }
 
+    .blog-details-content-inner-text h4 {
+
+        line-height: 35px;
+
+    }
+
     .blog-details-content {
 
         grid-template-columns: 1fr;
@@ -711,5 +717,8 @@
 
     .expertise-card-content p {
         font-size: 14px;
+    }
+    .section_title {
+        font-size: 24px;
     }
 }
