@@ -360,6 +360,11 @@
         transition: width 0.3s ease;
     }
 
+    .our_previous_projects_navigation {
+        width: 100%;
+        justify-content: flex-end;
+    }
+
     .modal-image img {
         left: 0;
         bottom: 0;
