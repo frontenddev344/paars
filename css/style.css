@@ -1795,3 +1795,219 @@ section.Engagement {
     font-family: 'Lato';
     font-size: 18px;
 }
+
+/* 404 Error Page Styles */
+.error-404-section {
+    padding: 120px 0 80px;
+    background-color: var(--secondary-color);
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.error-404-content {
+    text-align: center;
+}
+
+.error-404-inner {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.error-404-icon {
+    margin-bottom: 30px;
+}
+
+.error-404-icon i {
+    font-size: 80px;
+    color: var(--quinary-color);
+    opacity: 0.8;
+}
+
+.error-404-title {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 1;
+    color: var(--quinary-color);
+    margin-bottom: 10px;
+    letter-spacing: -2px;
+}
+
+.error-404-subtitle {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.error-404-description {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin-bottom: 40px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error-404-actions {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 30px;
+    background-color: var(--quinary-color);
+    color: var(--quaternary-color);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color);
+    color: var(--quaternary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 60, 67, 0.3);
+}
+
+.btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 30px;
+    background-color: var(--bg-btn-color);
+    color: var(--primary-color);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-secondary:hover {
+    background-color: var(--quinary-color);
+    color: var(--quaternary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 60, 67, 0.3);
+}
+
+.error-404-suggestions {
+    margin-top: 60px;
+    padding-top: 40px;
+    border-top: 1px solid rgba(0, 60, 67, 0.1);
+}
+
+.error-404-suggestions h3 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--primary-color);
+    margin-bottom: 25px;
+}
+
+.suggestions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.suggestion-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px 20px;
+    background-color: var(--quaternary-color);
+    color: var(--primary-color);
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.suggestion-item:hover {
+    background-color: var(--quinary-color);
+    color: var(--quaternary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 60, 67, 0.2);
+}
+
+.suggestion-item i {
+    font-size: 16px;
+    width: 20px;
+    text-align: center;
+}
+
+/* Responsive styles for 404 page */
+@media (max-width: 768px) {
+    .error-404-section {
+        padding: 80px 0 60px;
+    }
+    
+    .error-404-title {
+        font-size: 80px;
+    }
+    
+    .error-404-subtitle {
+        font-size: 24px;
+    }
+    
+    .error-404-description {
+        font-size: 16px;
+    }
+    
+    .error-404-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+        max-width: 280px;
+        justify-content: center;
+    }
+    
+    .suggestions-grid {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .error-404-title {
+        font-size: 60px;
+    }
+    
+    .error-404-subtitle {
+        font-size: 20px;
+    }
+    
+    .error-404-icon i {
+        font-size: 60px;
+    }
+}
