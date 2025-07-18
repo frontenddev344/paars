@@ -2068,7 +2068,6 @@ section.Engagement {
     height: inherit !important;
     transition: all 0.3s ease;
     border: 1px solid #e8e8e8;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
     margin: 0 20px;
 }
 
