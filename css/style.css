@@ -2094,6 +2094,10 @@ section.Engagement {
     margin-top: 40px;
 }
 
+.feature-box.aos-init.aos-animate {
+    transition: all 0.3s !important;
+}
+
 .expertise-card-content h3 {
     font-family: 'Manrope', sans-serif;
     font-weight: 700;
