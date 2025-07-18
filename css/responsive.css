@@ -5,6 +5,10 @@
         padding: 14px 20px !important;
     }
 
+    .client-logo img {
+        width: 80%;
+    }
+
 }
 
 @media (max-width: 1440px) {
@@ -34,6 +38,7 @@
         grid-template-columns: 820px 1fr;
         gap: 40px;
     }
+
     .client-logo img {
         width: 100%;
     }
