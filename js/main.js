@@ -1,4 +1,4 @@
-// Open/Close Nav
+
 function openNav() {
     document.getElementById("mySidenavs").classList.add("open");
     document.getElementById("menuOverlay").classList.add("active");

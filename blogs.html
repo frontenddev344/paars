@@ -1,80 +1,397 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Paars | Blogs </title>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Header start here -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header-content">
+                        <div class="logo">
+                            <a href="./"><img src="images/logo.png" alt="logo"></a>
+                        </div>
+                        <div class="menu-list" id="mySidenavs">
+                            <span class="menu-close" onclick="closeNav()">
+                                <i class="fa-solid fa-xmark"></i>
+                            </span>
+                            <ul>
+                                <li><a href="./">Home</a></li>
+                                <li class="dropdown">
+                                    <a href="./services.html">Services</a>
+                                    <span class="sub-menu-icon">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </span>
+                                    <ul class="sub-menu">
+                                        <li><a href="./regulatory-blueprint.html">Regulatory Blueprint</a></li>
+                                        <li><a href="./catalyst-projects.html">Catalyst Projects</a></li>
+                                        <li><a href="regulatory-and-policy-lab.html">Regulatory & Policy Lab</a></li>
+                                        <li><a href="./regulatory-academy.html">Regulatory Academy</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./about-us.html">About us</a></li>
+                                <li class="active"><a href="./blogs.html">Blogs</a></li>
+                                <li><a href="javascript:void(0)" class="getInTouch">Contact us</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu-icon">
+                            <span onclick="openNav()">
+                                <i class="fa-solid fa-bars"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-overlay" id="menuOverlay" onclick="closeNav()"></div>
+    </header>
+    <!-- header end here -->
+
     <!-- Main Content -->
     <main class="main-content" id="main-content">
- 
-    </main>
-    <!-- Main Content -->
 
-->
-
-    <!-- Main Content -->
-    <main class="main-content" id="main-content">
-        <!-- 404 Error Section -->
-        <section class="error-404-section">
+        <!-- Blogs Section -->
+        <section class="blogs-section">
             <div class="container">
-                <div class="error-404-content">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8 col-md-10">
-                            <div class="error-404-inner" data-aos="fade-up">
-                                <div class="error-404-icon">
-                                    <i class="fa-solid fa-exclamation-triangle"></i>
-                                </div>
-                                <h1 class="error-404-title">404</h1>
-                                <h2 class="error-404-subtitle">Page Not Found</h2>
-                                <p class="error-404-description">
-                                    The page you're looking for doesn't exist or has been moved. 
-                                    Let's get you back on track to better governance.
-                                </p>
-                                <div class="error-404-actions">
-                                    <a href="./" class="btn-primary">
-                                        <span class="btn-text">Go to Homepage</span>
-                                        <div class="icon-container">
-                                            <span class="icon icon-default arrow-icon">
-                                                <i class="fa-solid fa-arrow-up"></i>
-                                            </span>
-                                            <span class="icon icon-hover arrow-icon">
-                                                <i class="fa-solid fa-arrow-up"></i>
-                                            </span>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="blogs-section-inner">
+                            <span class="reform-title">Ideas. Policy. Impact.</span>
+                            <h2 class="section_title">Insights on Better <br> Regulation & Governance</h2>
+                            <p class="disc-text">Welcome to the Paars Blog — a space where we explore smarter
+                                policymaking, agile regulation, and institutional reform. Here, our experts share
+                                practical tools, global lessons, and forward-thinking strategies designed to help
+                                governments and institutions become more transparent, innovative, and effective.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-card-wrapper">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4">
+                            <div class="blog-card">
+                                <div class="blog-card-inner">
+                                    <div class="blog-card-image">
+                                        <img src="images/post1.jpg  " alt="blog-img1">
+                                    </div>
+                                    <div class="blog-card-content">
+                                        <span>May 21, 2025</span>
+                                        <p>Bridging the Gap Between Policy and Practice</p>
+                                        <div class="read-more">
+                                            <a href="#">Read More <i class="fa-solid fa-angle-right"></i></a>
                                         </div>
-                                    </a>
-                                    <a href="./services.html" class="btn-secondary">
-                                        <span class="btn-text">Explore Services</span>
-                                        <div class="icon-container">
-                                            <span class="icon icon-default arrow-icon">
-                                                <i class="fa-solid fa-arrow-up"></i>
-                                            </span>
-                                            <span class="icon icon-hover arrow-icon">
-                                                <i class="fa-solid fa-arrow-up"></i>
-                                            </span>
-                                        </div>
-                                    </a>
+                                    </div>
                                 </div>
-                                <div class="error-404-suggestions">
-                                    <h3>You might be looking for:</h3>
-                                    <div class="suggestions-grid">
-                                        <a href="./about-us.html" class="suggestion-item">
-                                            <i class="fa-solid fa-users"></i>
-                                            <span>About Us</span>
-                                        </a>
-                                        <a href="./contact-us.html" class="suggestion-item">
-                                            <i class="fa-solid fa-envelope"></i>
-                                            <span>Contact Us</span>
-                                        </a>
-                                        <a href="./regulatory-blueprint.html" class="suggestion-item">
-                                            <i class="fa-solid fa-cogs"></i>
-                                            <span>Regulatory Blueprint</span>
-                                        </a>
-                                        <a href="./catalyst-projects.html" class="suggestion-item">
-                                            <i class="fa-solid fa-lightbulb"></i>
-                                            <span>Catalyst Projects</span>
-                                        </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="blog-card">
+                                <div class="blog-card-inner">
+                                    <div class="blog-card-image">
+                                        <img src="images/blog1.jpg  " alt="blog-img1">
+                                    </div>
+                                    <div class="blog-card-content">
+                                        <span>May 21, 2025</span>
+                                        <p>Why Strong Regulatory Systems Matter</p>
+                                        <div class="read-more">
+                                            <a href="#">Read More <i class="fa-solid fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="blog-card">
+                                <div class="blog-card-inner">
+                                    <div class="blog-card-image">
+                                        <img src="images/blog3.jpg  " alt="blog-img1">
+                                    </div>
+                                    <div class="blog-card-content">
+                                        <span>May 21, 2025</span>
+                                        <p>Innovation in Governance: The PAARS Approach</p>
+                                        <div class="read-more">
+                                            <a href="#">Read More <i class="fa-solid fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="blog-card">
+                                <div class="blog-card-inner">
+                                    <div class="blog-card-image">
+                                        <img src="images/blog3.jpg  " alt="blog-img1">
+                                    </div>
+                                    <div class="blog-card-content">
+                                        <span>May 21, 2025</span>
+                                        <p>Innovation in Governance: The PAARS Approach</p>
+                                        <div class="read-more">
+                                            <a href="#">Read More <i class="fa-solid fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="blog-card">
+                                <div class="blog-card-inner">
+                                    <div class="blog-card-image">
+                                        <img src="images/post1.jpg  " alt="blog-img1">
+                                    </div>
+                                    <div class="blog-card-content">
+                                        <span>May 21, 2025</span>
+                                        <p>Bridging the Gap Between Policy and Practice</p>
+                                        <div class="read-more">
+                                            <a href="#">Read More <i class="fa-solid fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="blog-card">
+                                <div class="blog-card-inner">
+                                    <div class="blog-card-image">
+                                        <img src="images/blog1.jpg  " alt="blog-img1">
+                                    </div>
+                                    <div class="blog-card-content">
+                                        <span>May 21, 2025</span>
+                                        <p>Why Strong Regulatory Systems Matter</p>
+                                        <div class="read-more">
+                                            <a href="#">Read More <i class="fa-solid fa-angle-right"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="btn-contact-wrapper">
+                        <a href="./services.html" class="btn-contact">
+                            <span class="btn-text">Explore more</span>
+                            <div class="icon-container">
+                                <span class="icon icon-default arrow-icon">
+                                    <i class="fa-solid fa-arrow-up"></i>
+                                </span>
+                                <span class="icon icon-hover arrow-icon">
+                                    <i class="fa-solid fa-arrow-up"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+
                 </div>
+
             </div>
         </section>
-        <!-- 404 Error Section -->
+        <!-- Blogs Section -->
+
+
+        <!-- Together for Better Governance -->
+        <div class="together_for_better_governance">
+            <div class="container">
+                <div class="together_for_better_governance_inner">
+                    <div class="together_for_better_governance_content">
+                        <span class="reform-title">Together for Better Governance</span>
+                        <h3 class="section_title" data-aos="zoom-in">Let's talk about building Better Systems</h3>
+                    </div>
+                    <div class="building-better">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <div class="building-better-card getInTouch" data-aos="fade-up">
+                                    <div class="building-better-card-icon">
+                                        <img src="images/headphone.png" alt="headphone">
+                                    </div>
+                                    <div class="building-better-card-content">
+                                        <h4>Contact Us</h4>
+                                        <p>Discuss your regulatory challenges and explore how PAARS can provide tailored
+                                            solutions. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4">
+                                <div class="building-better-card" data-aos="fade-up">
+                                    <div class="building-better-card-icon">
+                                        <img src="images/request.png" alt="request">
+                                    </div>
+                                    <div class="building-better-card-content">
+                                        <h4>Request a Proposal</h4>
+                                        <p>Tell us your needs, and we’ll craft a tailored proposal to match your goals.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4">
+                                <div class="building-better-card" data-aos="fade-up">
+                                    <div class="building-better-card-icon">
+                                        <img src="images/Partner.png" alt="Partner">
+                                    </div>
+                                    <div class="building-better-card-content">
+                                        <h4>Partner with Us</h4>
+                                        <p>We offer long-term advisory, training, and research partnerships to support
+                                            lasting regulatory improvement. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Together for Better Governance -->
+
     </main>
     <!-- Main Content -->
+
+
+    <!-- footer start -->
+    <footer class="footer">
+        <!-- top footer start -->
+        <div class="top-footer-wrapper">
+            <div class="container">
+                <div class="top-footer">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4  one">
+                            <div class="footer-menu-wrapper footer-menu-left">
+                                <ul class="footer-menu">
+                                    <li><a href="./">Home</a></li>
+                                    <li><a href="./services.html">Services</a></li>
+                                    <li><a href="#">Our Approach</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 two">
+                            <div class="footer-logo footer-logo-center">
+                                <a href="./"><img src="images/logo.png" alt="logo"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 three">
+                            <div class="footer-menu-wrapper footer-menu-right">
+                                <ul class="footer-menu">
+                                    <li><a href="javascript:void(0)">Blogs</a></li>
+                                    <li><a href="./contact-us.html">Contact us</a></li>
+                                    <li><a href="./about-us.html">About Us</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- top footer end -->
+
+        <!-- center footer start  -->
+        <div class="center-footer">
+            <div class="container">
+                <div class="center-footer-inner">
+                    <h3>Together for Better Governance</h3>
+                    <p>PAARS is a specialized advisory firm that helps governments strengthen regulatory frameworks,
+                        enhance policymaking, and drive innovation and accountability. </p>
+                </div>
+            </div>
+            <div class="footer-tags-row">
+                <span class="footer-tag tag-1"><a href="#">Regulation</a></span>
+                <span class="footer-tag tag-2"><a href="#">Accountability</a></span>
+                <span class="footer-tag tag-3"><a href="#">Analysis</a></span>
+                <span class="footer-tag tag-4"><a href="#">Public Policy</a></span>
+                <span class="footer-tag tag-5"><a href="#">Analysis</a></span>
+                <span class="footer-tag tag-6"><a href="#">Accountability</a></span>
+                <span class="footer-tag tag-7"><a href="#">Regulation</a></span>
+                <span class="footer-tag tag-8"><a href="#">Strategy</a></span>
+                <span class="footer-tag tag-9"><a href="#">Public Policy</a></span>
+                <span class="footer-tag tag-10"><a href="#">Analysis</a></span>
+                <span class="footer-tag tag-11"><a href="#">Accountability</a></span>
+            </div>
+        </div>
+        <!-- center footer start  -->
+
+        <div class="bottom-footer">
+            <div class="container">
+                <div class="bottom-footer-inner">
+                    <p>© 2025 PAARS</p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </footer>
+
+    <!-- Contact Modal Popup -->
+    <div id="contactModal" class="modal-overlay" style="display:none;">
+        <div class="modal-content">
+            <span class="modal-close" id="closeModal">&times;</span>
+            <div class="modal-inner">
+                <div class="modal-image">
+                    <img src="images/popup-img.jpg" alt="Contact Us" style="width:100%;border-radius:10px;">
+                    <div class="modal-contact-info">
+                        <p>Send us a message<br><a href="mailto:info@paarsconsulting.com">info@paarsconsulting.com</a>
+                        </p>
+                        <p>Let's Stay Connected<br><a href="https://www.linkedin.com/" target="_blank">We're on
+                                LinkedIn</a></p>
+                    </div>
+                </div>
+                <div class="modal-form">
+                    <div class="modal-form-inner">
+                        <img src="images/logo.png" alt="logo">
+                    </div>
+                    <h3>Let’s Talk About Building Better Systems</h3>
+                    <p>We’d love to hear from you! Fill out the form and a member of our team will get back to you
+                        shortly.</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Leave us message</label>
+                            <textarea placeholder="Leave us message"></textarea>
+                        </div>
+                        <button type="submit">Send your message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+        })
+    </script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

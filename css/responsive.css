@@ -591,6 +591,36 @@
         grid-template-columns: 1fr;
         max-width: 100%;
     }
+
+    .our_previous_projects {
+        padding: 80px 0;
+    }
+
+    .our_previous_projects_header {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .our_previous_projects_content {
+        max-width: 100%;
+    }
+
+    .expertise-card {
+        padding: 30px 25px;
+        margin-bottom: 30px;
+    }
+
+    .expertise-card-content h3 {
+        font-size: 18px;
+    }
+
+    .expertise-card-content p {
+        font-size: 15px;
+    }
+
+    .expertise-checklist li {
+        font-size: 13px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -624,5 +654,26 @@
 
     .error-404-icon i {
         font-size: 60px;
+    }
+
+    .our_previous_projects {
+        padding: 60px 0;
+    }
+
+    .expertise-card {
+        padding: 25px 20px;
+    }
+
+    .expertise-card-icon img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .expertise-card-content h3 {
+        font-size: 16px;
+    }
+
+    .expertise-card-content p {
+        font-size: 14px;
     }
 }
