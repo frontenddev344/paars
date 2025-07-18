@@ -464,6 +464,10 @@ span.menu-close {
     color: #fff;
 }
 
+.our_service.services_page .feature-box:hover .service_area a::after {
+    display: none;
+}
+
 .contact_us {
     padding: 80px 0;
     text-align: center;

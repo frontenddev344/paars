@@ -217,6 +217,9 @@
 
     }
 
+    .why_choose_paars .feature-box {
+        border: 1px solid #11111126 !important;
+    }
 
 
 }
