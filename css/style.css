@@ -444,9 +444,29 @@ span.menu-close {
 }
 
 .our_service.services_page .feature-box:hover {
-    background-color: #fff;
-
+    background-color: #003C43;
+    color: #fff;
 }
+
+.our_service.services_page .feature-box:hover .feature-icon img {
+    filter: brightness(0) invert(1);
+}
+
+.our_service.services_page .feature-box:hover h3 {
+    color: #fff;
+}
+
+.our_service.services_page .feature-box:hover p {
+    color: #fff;
+}
+
+.our_service.services_page .feature-box:hover a {
+    color: #fff;
+}
+
+
+
+
 
 .services_page .feature-box p {
     width: 100%;
