@@ -1345,8 +1345,8 @@ ul.feature-list {
 }
 
 .why-it-matter {
-    background: #F8F7F4;
-    padding: 120px 0px;
+    background: #fff;
+    padding: 80px 0px;
 }
 
 .why-it-matter .row {
@@ -1959,4 +1959,214 @@ section.Engagement {
 
 .our_clients_slider {
     margin-top: 50px;
+}
+
+/* our track record styling start */
+.our_track_record{
+    padding: 80px 0px;
+}
+
+/* our track record styling start */
+.our_track_record{
+    padding: 80px 0px;
+}
+
+
+
+/* our track record styling start */
+.our_track_record{
+    padding: 80px 0px;
+}
+
+/* Our Previous Projects/Expertise Section Styles */
+.our_previous_projects {
+    padding: 100px 0;
+    background-color: var(--secondary-color);
+}
+
+
+
+.our_previous_projects_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 60px;
+    gap: 40px;
+}
+
+.our_previous_projects_content {
+    flex: 1;
+    max-width: 600px;
+}
+
+
+
+.our_previous_projects_navigation {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.nav-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+
+
+
+.expertise_cards {
+    margin-top: 40px;
+}
+
+.expertise-card {
+    background-color: var(--quaternary-color);
+    border-radius: 16px;
+    padding: 40px 30px;
+    height: inherit !important;
+    transition: all 0.3s ease;
+    border: 1px solid #e8e8e8;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    margin: 0 20px;
+}
+
+.expertise_cards .slick-track {
+    display: flex !important;
+}
+.expertise-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.expertise-card-icon {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.expertise-card-icon img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    filter: brightness(0) saturate(100%) invert(20%) sepia(100%) saturate(2000%) hue-rotate(180deg) brightness(0.8) contrast(1);
+}
+
+.expertise-card-content h3 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.expertise-card-content p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--text-color);
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.expertise-checklist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.expertise-checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 12px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+.expertise-checklist li:last-child {
+    margin-bottom: 0;
+}
+
+.expertise-checklist li i {
+    color: var(--quinary-color);
+    font-size: 14px;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+.our_previous_projects_navigation button {
+    display: block !important;
+    background-color: rgba(223, 228, 226, 1);
+}
+
+.our_previous_projects_navigation button:hover {
+    background-color: var(--quinary-color);
+    color: var(--quaternary-color);
+}
+
+
+
+@media (max-width: 768px) {
+    .our_previous_projects {
+        padding: 80px 0;
+    }
+    
+    .our_previous_projects_header {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .our_previous_projects_content {
+        max-width: 100%;
+    }
+    
+    .expertise-card {
+        padding: 30px 25px;
+        margin-bottom: 30px;
+    }
+    
+    .expertise-card-content h3 {
+        font-size: 18px;
+    }
+    
+    .expertise-card-content p {
+        font-size: 15px;
+    }
+    
+    .expertise-checklist li {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .our_previous_projects {
+        padding: 60px 0;
+    }
+    
+    .expertise-card {
+        padding: 25px 20px;
+    }
+    
+    .expertise-card-icon img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .expertise-card-content h3 {
+        font-size: 16px;
+    }
+    
+    .expertise-card-content p {
+        font-size: 14px;
+    }
 }
