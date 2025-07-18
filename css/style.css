@@ -443,7 +443,10 @@ span.menu-close {
     transition: all 0.3s ease;
 }
 
+.our_service.services_page .feature-box:hover {
+    background-color: #fff;
 
+}
 
 .services_page .feature-box p {
     width: 100%;
@@ -2390,3 +2393,56 @@ section.blogs-section {
 }
 
 /* Blogs Section Styles */
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.dropdown {
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    min-width: 100px;
+    z-index: 999;
+}
+
+.dropdown-menu li {
+    padding: 5px 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.flag {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.skiptranslate {
+    display: none;
+}
+
+body {
+    height: auto !important;
+    top: 0 !important;
+    position: static !important;
+}
+
+.language-dropdown {
+    position: relative;
+}
+
+.language-dropdown ul.dropdown-menu {
+    position: absolute;
+}

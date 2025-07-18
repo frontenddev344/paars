@@ -28,11 +28,24 @@
     }
 }
 
+@media (max-width: 1300px) {
+    .blog-details-content {
+
+        grid-template-columns: 820px 1fr;
+        gap: 40px;
+    }
+}
 
 
 @media (max-width: 1199px) {
     .hero-section {
         padding: 40px 0 40px;
+    }
+
+    .blog-details-content {
+
+        grid-template-columns: 1.5fr 1fr;
+        gap: 40px;
     }
 
     .our_blog {
@@ -343,6 +356,12 @@
     .what-we-offer-item-content p br {
 
         display: none;
+    }
+
+    .blog-details-content {
+
+        grid-template-columns: 1fr;
+        gap: 40px;
     }
 
     .articles .row .col-lg-4.col-md-6 {
