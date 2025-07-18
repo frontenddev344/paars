@@ -99,9 +99,21 @@ $(document).ready(function () {
         pauseOnHover: true,
         responsive: [
             {
-                breakpoint: 750,
+                breakpoint: 1300,
+                settings: {
+                    slidesToShow: 4,
+                }
+            },
+            {
+                breakpoint: 1024,
                 settings: {
                     slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
                 }
             },
             {
