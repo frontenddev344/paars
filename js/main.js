@@ -76,3 +76,49 @@ document.addEventListener("click", function (e) {
         });
     }
 });
+
+
+
+
+$(document).ready(function () {
+    $('.our_clients_sec').slick({
+        speed: 5000,
+        margin: 20,
+        autoplay: true,
+        loop: true,
+        autoplaySpeed: 0,
+        cssEase: 'linear',
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        infinite: true,
+        swipeToSlide: true,
+        centerMode: true,
+        focusOnSelect: true,
+        arrows: false,
+        dots: false,
+        pauseOnHover: true,
+        responsive: [
+            {
+                breakpoint: 750,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
+
+
+    $('.responsive').on('mouseenter', function () {
+        $(this).slick('slickPause');
+    });
+
+    $('.responsive').on('mouseleave', function () {
+        $(this).slick('slickPlay');
+    });
+});

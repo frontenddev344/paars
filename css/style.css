@@ -443,9 +443,7 @@ span.menu-close {
     transition: all 0.3s ease;
 }
 
-.services_page .feature-box:hover {
-    background-color: var(--quaternary-color);
-}
+
 
 .services_page .feature-box p {
     width: 100%;
@@ -590,7 +588,18 @@ span.menu-close {
 
 
 .our_service_card:hover {
-    border-top: 1px solid var(--quinary-color);
+    background-color: #003C43;
+    color: #fff;
+}
+
+.our_service_card:hover .our_service_text_box h3,
+.our_service_card:hover .our_service_text_box p,
+.our_service_card:hover .service_area a {
+    color: #fff;
+}
+
+.our_service_card:hover .our_service_icon img {
+    filter: brightness(0) invert(1);
 }
 
 
@@ -740,9 +749,6 @@ span.menu-close {
     transform: all 0.3s;
 }
 
-.feature-box:hover {
-    background-color: #fff;
-}
 
 .approach-grid .feature-box h3 {
     font-family: 'Manrope', sans-serif;
@@ -848,8 +854,6 @@ span.menu-close {
 
 .our_blog_content {
     text-align: left;
-    max-width: 482px;
-    width: 100%;
     margin-bottom: 48px;
 
 }
@@ -1553,44 +1557,10 @@ section.Engagement {
 .matter_img1 img,
 .matter_img2 img {
     width: 100%;
-    animation: up-down linear 4s;
-    animation-iteration-count: infinite;
-    transform-origin: 50% 50%;
-    -webkit-animation: up-down linear 4s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-transform-origin: 50% 50%;
-    -moz-animation: up-down linear 4s;
-    -moz-animation-iteration-count: infinite;
-    -moz-transform-origin: 50% 50%;
-    -o-animation: up-down linear 4s;
-    -o-animation-iteration-count: infinite;
-    -o-transform-origin: 50% 50%;
-    -ms-animation: up-down linear 4s;
-    -ms-animation-iteration-count: infinite;
-    -ms-transform-origin: 50% 50%;
+
 }
 
-@keyframes up-down {
-    0% {
-        transform: translate(1px, 20px);
-    }
 
-    24% {
-        transform: translate(1px, 30px);
-    }
-
-    50% {
-        transform: translate(1px, 12px);
-    }
-
-    74% {
-        transform: translate(1px, 22px);
-    }
-
-    100% {
-        transform: translate(1px, 22px);
-    }
-}
 
 .together_why {
     display: flex;
@@ -1963,3 +1933,30 @@ section.Engagement {
 }
 
 
+/* Our Clients styling start */
+.our_clients {
+    background: #fff;
+    padding: 80px 0px;
+}
+
+.our_clients_content_inner {
+    max-width: 894px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.client-logo {
+    background: rgba(248, 247, 244, 1);
+    padding: 20px;
+    border-radius: 16px;
+    text-align: center;
+    margin: 0 20px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our_clients_slider {
+    margin-top: 50px;
+}
