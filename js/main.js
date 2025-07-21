@@ -46,6 +46,46 @@ document.getElementById('contactModal').addEventListener('click', function (e) {
     }
 });
 
+// Show modal on every .requestProposal click (all matching buttons)
+document.querySelectorAll('.request-proposal').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+        document.getElementById('requestProposalModal').style.display = 'flex';
+    });
+});
+
+// Close modal on X (close button) click
+document.getElementById('closeRequestProposalModal').addEventListener('click', function () {
+    document.getElementById('requestProposalModal').style.display = 'none';
+});
+
+// Close modal when clicking outside the modal content
+document.getElementById('requestProposalModal').addEventListener('click', function (e) {
+    if (e.target === this) {
+        this.style.display = 'none';
+    }
+});
+
+
+// Show modal on every .partner-with-us click (all matching buttons)
+document.querySelectorAll('.partner-with-us').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+        document.getElementById('partnerWithUsModal').style.display = 'flex';
+    });
+});
+
+// Close modal on X (close button) click
+document.getElementById('closePartnerWithUsModal').addEventListener('click', function () {
+    document.getElementById('partnerWithUsModal').style.display = 'none';
+});
+
+// Close modal when clicking outside the modal content
+document.getElementById('requestProposalModal').addEventListener('click', function (e) {
+    if (e.target === this) {
+        this.style.display = 'none';
+    }
+});
+
+
 
 
 document.querySelectorAll(".dropdown").forEach((dropdown) => {
