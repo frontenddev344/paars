@@ -659,6 +659,7 @@ span.menu-close {
     width: 30px;
     height: 30px;
     margin-top: 10px;
+    object-fit: cover;
 }
 
 .step-title {
@@ -2429,5 +2430,3 @@ section.blogs-section {
 }
 
 /* Blogs Section Styles */
-
-
