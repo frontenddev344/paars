@@ -179,7 +179,7 @@
                     <div class="building-better">
                         <div class="row">
                             <div class="col-lg-4 col-md-4">
-                                <div class="building-better-card getInTouch" >
+                                <div class="building-better-card getInTouch" data-aos="fade-up">
                                     <div class="building-better-card-icon">
                                         <img src="images/headphone.png" alt="headphone">
                                     </div>
@@ -191,7 +191,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4">
-                                <div class="building-better-card request-proposal" >
+                                <div class="building-better-card request-proposal" data-aos="fade-up">
                                     <div class="building-better-card-icon">
                                         <img src="images/request.png" alt="request">
                                     </div>
@@ -203,7 +203,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4">
-                                <div class="building-better-card partner-with-us" >
+                                <div class="building-better-card partner-with-us" data-aos="fade-up">
                                     <div class="building-better-card-icon">
                                         <img src="images/Partner.png" alt="Partner">
                                     </div>
@@ -343,16 +343,17 @@
 
 
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
     <script src="js/aos.js"></script>
     <script>
-
         AOS.init({
-            duration: 1200,
-        })
-
+            duration: 800,
+            once: true
+        });
     </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

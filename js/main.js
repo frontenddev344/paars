@@ -82,15 +82,14 @@ document.addEventListener("click", function (e) {
 
 
 $(document).ready(function () {
-    $('.our_clients_sec').slick({
+    $('.our_clients_sec').on('init', function () {
+        AOS.refresh(); // Refresh AOS after slick is ready
+    }).slick({
         speed: 5000,
-        margin: 20,
         autoplay: true,
-        loop: true,
         autoplaySpeed: 0,
         cssEase: 'linear',
         slidesToShow: 5,
-        slidesToScroll: 1,
         infinite: true,
         swipeToSlide: true,
         centerMode: true,
@@ -99,67 +98,26 @@ $(document).ready(function () {
         dots: false,
         pauseOnHover: true,
         responsive: [
-            {
-                breakpoint: 1300,
-                settings: {
-                    slidesToShow: 4,
-                }
-            },
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                }
-            }
+            { breakpoint: 1300, settings: { slidesToShow: 4 } },
+            { breakpoint: 1024, settings: { slidesToShow: 3 } },
+            { breakpoint: 768, settings: { slidesToShow: 2 } },
+            { breakpoint: 480, settings: { slidesToShow: 1 } }
         ]
     });
 
-
-    $('.responsive').on('mouseenter', function () {
-        $(this).slick('slickPause');
-    });
-
-    $('.responsive').on('mouseleave', function () {
-        $(this).slick('slickPlay');
-    });
-});
-
-
-$(document).ready(function () {
-    $('.responsive-slider').slick({
+    // Responsive Slider with AOS refresh
+    $('.responsive-slider').on('init', function () {
+        AOS.refresh();
+    }).slick({
         slidesToShow: 3,
-        slidesToScroll: 1,
-        infinite: true,
         speed: 600,
         arrows: true,
         dots: false,
         prevArrow: $('#prevBtn'),
         nextArrow: $('#nextBtn'),
         responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 1,
-                }
-            }
+            { breakpoint: 1024, settings: { slidesToShow: 2 } },
+            { breakpoint: 600, settings: { slidesToShow: 1 } }
         ]
     });
 });
