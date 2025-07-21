@@ -8,6 +8,7 @@
     .client-logo img {
         width: 80%;
     }
+
     .container {
         padding: 0 40px;
     }
@@ -45,7 +46,7 @@
     .client-logo img {
         width: 100%;
     }
-    
+
 }
 
 
@@ -679,6 +680,10 @@
 }
 
 @media (max-width: 575px) {
+    .container {
+        padding: 0 15px;
+    }
+
     .hero-content-left h1 {
         font-size: 32px;
     }
