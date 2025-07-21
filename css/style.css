@@ -444,29 +444,10 @@ span.menu-close {
 }
 
 .our_service.services_page .feature-box:hover {
-    background-color: #003C43;
-    color: #fff;
+    background-color: #EBEEEA;
 }
 
-.our_service.services_page .feature-box:hover .feature-icon img {
-    filter: brightness(0) invert(1);
-}
 
-.our_service.services_page .feature-box:hover h3 {
-    color: #fff;
-}
-
-.our_service.services_page .feature-box:hover p {
-    color: #fff;
-}
-
-.our_service.services_page .feature-box:hover a {
-    color: #fff;
-}
-
-.our_service.services_page .feature-box:hover .service_area a::after {
-    display: none;
-}
 
 .contact_us {
     padding: 80px 0;
@@ -551,7 +532,6 @@ span.menu-close {
     height: 100%;
     transition: opacity 0.7s cubic-bezier(.77, 0, .18, 1), transform 0.7s cubic-bezier(.77, 0, .18, 1);
     cursor: pointer;
-    border: 1px solid var(--quaternary-color);
 }
 
 
@@ -622,19 +602,11 @@ span.menu-close {
 
 
 .our_service_card:hover {
-    background-color: #003C43;
-    color: #fff;
+    background-color: #EBEEEA;
+
 }
 
-.our_service_card:hover .our_service_text_box h3,
-.our_service_card:hover .our_service_text_box p,
-.our_service_card:hover .service_area a {
-    color: #fff;
-}
 
-.our_service_card:hover .our_service_icon img {
-    filter: brightness(0) invert(1);
-}
 
 
 
@@ -775,7 +747,7 @@ span.menu-close {
 .approach-grid .feature-box {
     padding: 20px;
     margin-bottom: 20px;
-    cursor: pointer;
+
 }
 
 .feature-box {
@@ -1478,7 +1450,7 @@ ul.feature-list {
 
 /* approach styling start */
 .approach {
-    background: #fff;
+
     padding: 60px 0px;
 }
 
@@ -1974,11 +1946,7 @@ section.Engagement {
     padding: 80px 0px;
 }
 
-.our_clients_content_inner {
-    max-width: 894px;
-    margin: 0 auto;
-    text-align: center;
-}
+
 
 .client-logo {
     background: rgba(248, 247, 244, 1);
@@ -1994,6 +1962,10 @@ section.Engagement {
 
 .our_clients_slider {
     margin-top: 50px;
+}
+
+.client-logo img {
+    width: 100%;
 }
 
 /* our track record styling start */
@@ -2024,8 +1996,8 @@ section.Engagement {
 .our_previous_projects_header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 60px;
+    align-items: flex-end;
+    margin-bottom: 40px;
     gap: 40px;
 }
 
@@ -2065,7 +2037,7 @@ section.Engagement {
 .expertise-card {
     background-color: var(--quaternary-color);
     border-radius: 16px;
-    padding: 40px 30px;
+    padding: 20px;
     height: inherit !important;
     transition: all 0.3s ease;
     border: 1px solid #e8e8e8;
@@ -2113,8 +2085,8 @@ section.Engagement {
     font-weight: 400;
     font-size: 16px;
     color: var(--text-color);
-    line-height: 1.6;
-    margin-bottom: 25px;
+    line-height: 28px;
+    margin-bottom: 15px;
 }
 
 .expertise-checklist {
@@ -2127,7 +2099,7 @@ section.Engagement {
     display: flex;
     align-items: flex-start;
     gap: 12px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -2433,4 +2405,5 @@ section.blogs-section {
 .our_previous_projects_navigation button {
     color: #000;
 }
+
 /* Blogs Section Styles */

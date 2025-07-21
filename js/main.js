@@ -129,7 +129,7 @@ $(document).ready(function () {
         autoplay: true,
         autoplaySpeed: 0,
         cssEase: 'linear',
-        slidesToShow: 5,
+        slidesToShow: 3,
         infinite: true,
         swipeToSlide: true,
         centerMode: true,
